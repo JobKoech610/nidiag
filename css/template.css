@@ -1,0 +1,1605 @@
+/*****************************/
+/*** Core html setup stuff ***/
+/*****************************/
+ 
+
+html {
+    height: 100%;
+    margin-bottom: 1px;
+  }
+  
+  form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+      font-family:Verdana, Arial, Helvetica, sans-serif;
+      line-height: 11pt;
+      margin: 0px 0px 0px 0px;
+      font-size: 9pt;
+      color: #3e3d40;
+      background-color: #3e3d40;
+  }
+  
+  #bando {
+          position:relative;
+          width:1000px;
+          height:180px;
+          top: 0px;
+          margin-left: auto; 
+            margin-right: auto;
+          overflow: visible;
+          visibility: visible;
+          clip: rect(auto,auto,auto,10);
+          background-image:url(/images/bando.png);
+          border: 0px solid #80a6af;
+  }
+  
+  #entete{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/entete.jpg);
+      height: 9px;
+      width: 987px;
+      background-repeat: no-repeat;
+  }
+  
+  #entete_news{
+      background-image: url(/images/fond_news_01.jpg);
+      height: 14px;
+      width: 220px;
+      background-repeat: no-repeat;
+  }
+  
+  #repetition_news{
+      background-image: url(/images/fond_news_03.jpg);
+      width: 220px;
+      background-repeat:repeat-y;
+  }
+  
+  #pied_news{
+      background-image: url(/images/fond_news_05.jpg);
+      height: 14px;
+      width: 220px;
+      background-repeat: no-repeat;
+  }
+  
+  #message_bas_gauche{
+  color:#9c99c6;
+  font-size:8pt;
+  line-height:9.5pt;
+  padding-left:12px;
+  text-align:justify;
+  padding-right:8px;
+  
+  }
+  
+  #entete_contenu_accueil{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/fond_contenu_accueil_01.png);
+      height:52px;
+      width:524px;
+      background-repeat: no-repeat;
+  }
+  
+  #pied_contenu_accueil{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/fond_contenu_accueil_05.png);
+      height:51px;
+      width:524px;
+      background-repeat: no-repeat;
+  }
+  
+  #repetion_contenu{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/fond_contenu_accueil.png);
+      width:525px;
+      height:631px;
+      background-repeat:no-repeat;
+  }
+  #news {
+      margin-top:35px;
+      margin-left:20px;
+      margin-bottom:5px;
+  }
+  
+  #fp7{
+      position:relative;
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/FP7.jpg);
+      width:144px;
+      height:57px;
+      background-repeat:no-repeat;
+  }
+  
+  #fp72{
+      float:left;
+      position:relative;
+      background-image: url(/images/FP7_02.jpg);
+      width:77px;
+      height:57px;
+      background-repeat:no-repeat;
+      cursor:pointer;
+  }
+  
+  
+  #fp71{
+      float:left;
+      position:relative;
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/FP7_01.jpg);
+      width:67px;
+      height:57px;
+      background-repeat:no-repeat;
+      cursor:pointer;
+  }
+  
+  
+  #encart_news{
+  font-size:8,5pt;
+  line-height:9,5pt;
+  padding-top:6px;
+  padding-left:9px;
+  padding-right:9px;
+  text-align:justify;
+  }
+  
+  #bandobas {
+          position:relative;
+          width:1000px;
+          height:100px;
+          margin-left: auto; 
+            margin-right: auto;
+          overflow: visible;
+          visibility: visible;
+          background-image:url(/images/bandobas.png);
+  
+  }	
+  
+  #contenu{
+  padding-top:18px;
+  text-align:justify;
+  float:left;
+  
+  }
+  a.menuintranet:link, a.menuintranet:visited {
+  padding-bottom:12px;
+  background: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/puce_gauche.png);
+  background-position:middle left;
+  background-repeat:no-repeat;
+  display: block;
+  vertical-align: middle;
+  font-size: 13px;;
+  color: #000000;
+  text-align: left;
+  padding-top: 0px;
+  padding-left: 26px;
+  font-weight:bold;
+  
+  text-decoration: none;
+  
+  }
+  #titre_news{
+      background-image: url(/images/news.jpg);
+      background-position:left;
+  
+      height:13px;
+      width:13px;
+      padding-left:18px;
+      background-repeat: no-repeat;
+      font-weight:bold; 
+      font-size:11pt;
+      line-height:12pt;
+      margin-left:9px;
+  
+  }
+  
+  #entete_contenu_news{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/news_accueil_01.png);
+      height:52px;
+      width:213px;
+      background-repeat: no-repeat;
+  }
+  
+  #pied_contenu_news{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/news_accueil_05.png);
+      height:53px;
+      width:213px;
+      background-repeat: no-repeat;
+  }
+  
+  #repetion_news{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/fond_news.png);
+      width:214px;
+      height:286px;
+      background-repeat:no-repeat;
+  }
+  
+  #menu_gauche{
+  height:400px;
+  
+  }
+  
+  #bloc1{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/bloc_bas_01.jpg);
+      height: 162px;
+      width: 297px;
+      background-repeat: no-repeat;
+  }
+  
+  #colonne_gauche{
+  float:left;
+  width:195px;
+  
+  }
+  
+  #colonne_droite{
+  float:right;
+  width:270px;
+  
+  }
+  
+  #bloc_centre{
+  width:522px;
+  overflow:hidden;
+  
+  }
+  
+  #bloc2{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/bloc_bas_02.jpg);
+      height: 162px;
+      width: 302px;
+      background-repeat: no-repeat;
+  }
+  
+  #bloc3{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/bloc_bas_03.jpg);
+      height: 162px;
+      width: 296px;
+      background-repeat: no-repeat;
+  }
+  
+  #icone_footer{
+      margin-left:56px;
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/icone_footer.jpg);
+      height: 32px;
+      width: 86px;
+      background-repeat: no-repeat;
+      float:left;
+  }
+  
+  #private{
+      cursor:pointer;
+      float:left;
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/private_acces_members.png);
+      height: 39px;
+      width: 162px;
+      background-repeat: no-repeat;
+  }
+  
+  #footer{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/footer.jpg);
+      height: 15px;
+      width: 987px;
+      background-repeat: no-repeat;
+  }
+  
+  
+  #repet_gris{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/fond_gris_03.jpg);
+      
+      width: 208px;
+      background-repeat: repeat-y;
+  }
+  
+  #fond_volupte {
+      margin-left:9px;
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/fond_volupte.jpg);
+      width: 980px;
+      height: 65px;
+      background-repeat: no-repeat;
+  }
+  
+  #fond_corps_bleu{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/fond_bloc_bleu.jpg);
+      width: 644px;
+      height: 316px;
+      background-repeat: no-repeat;
+  }
+  
+  .buttonmlcom{
+  background-color:#FFFFFF;
+  color:#4d76af;
+  border:none;
+  margin-left:6px;
+  
+  }
+  
+  .inputboxmlcom{
+  border:none;
+  font-size:8pt;
+  width:172px;
+  }
+  
+  .titre_bleu{
+  color:#345c92;
+  font-size:10pt;
+  line-height:12pt;
+  font-weight:bold;
+  
+  
+  }
+  
+  #footer_mlcom{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/footer.jpg);
+      height: 54px;
+      background-repeat: repeat-x;
+  }
+  
+  #extranet{
+      margin-left:7px;
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/extranet.jpg);
+      height: 136px;
+      width: 190px;
+      background-repeat: no-repeat;
+  }
+  
+  #pied_gris{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/fond_gris_05.jpg);
+      height: 8px;
+      width: 208px;
+      background-repeat: no-repeat;
+  }
+  
+  #fond_contenu {
+  
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/fond_contenu.png);
+      min-height: 206px;
+      width: 987px;
+      background-repeat: repeat-y;
+  }
+  
+  #logo_hepacute {
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/hepacute_01.jpg);
+      height:168px;
+      width:457px;
+      background-repeat: no-repeat;
+      cursor:pointer;
+      float:left;
+  }
+  
+  #bandeau_hepacute {
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/hepacute_02.jpg);
+      height:168px;
+      width:530px;
+      background-repeat: no-repeat;
+      cursor:pointer;
+      float:left;
+  }
+  
+  #fond_menu{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/hepacute_03.jpg);
+      height:97px;
+      width:987px;
+      background-repeat: no-repeat;
+  }
+  
+  #fond_bloc_principal{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/hepacute_04.jpg);
+      min-height:786px;
+      width:987px;
+      background-repeat: no-repeat;
+      background-color:#efe9c3;
+  }
+  
+  #footer{
+  
+  }
+  
+  #recherche{
+  height:28px;
+  float:right;
+  padding-right:94px;
+  padding-top:2px;
+  
+  }
+  #page{margin-top:25px;
+      width: 987px;
+      margin-right: auto;
+      margin-left: auto;
+      
+  }
+  
+  #global { 
+      width:800px;
+      top: 0px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color:#FFFFFF;
+  }
+  
+  #menu{
+   height:50px;
+   widht:100%;
+   background-color:#bee2e6;
+   margin:0;
+   padding:0;
+   }
+  
+  
+  #bandeau{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/entete_cch_fever_02.jpg);
+      height: 78px;
+      width: 617px;
+      background-repeat: no-repeat;
+      float:right;
+      
+  }
+  
+  
+  #centermenu{
+  
+      height:20px;}
+  #corps{
+  float:left;
+  padding-left:10px;
+  padding-right:20px;
+  width:650px;
+  }
+  #fil{
+      width:987px;
+      height:36px;
+  }
+  #ariane{
+      padding-top:8px;
+      width:987px;
+      height:20px;
+      color: #FFF;
+      font-style: italic;
+      }
+  #gauche{
+      width:208px;
+      float:left;}
+  #entete_carre{
+      margin-left:19px;
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/carre1_01.jpg);
+      background-repeat: no-repeat;
+      height: 15px;
+      width: 230px;
+  }
+  
+  #pied_carre{
+      margin-left:19px;
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/carre1_05.jpg);
+      background-repeat: no-repeat;
+      height: 35px;
+      width: 230px;
+  }	
+      
+  #carre1{
+      margin-left:19px;
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/carre1_03.jpg);
+      background-repeat:repeat-y;
+      width: 230px;
+      min-height:150px;
+  }
+  #menuG {
+      margin-left:10px;
+  }
+  #hautcarre2{margin-left:19px;
+      height: 25px;
+      width: 217px;
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/hautcarre2.jpg);
+      background-repeat: no-repeat;
+  }
+  #carre2{margin-left:20px;
+      background-color:#cecbe1;
+      height:185px;
+      width: 215px;
+  }
+  #titreactu{margin-left:10px;
+      padding-bottom:15px;
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/actualite.jpg);
+      background-repeat:no-repeat;
+      height: 27px;
+      width: 160px;
+  }
+  
+  #actualite {
+  background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/puce_actualite.jpg);
+  background-repeat:no-repeat;
+  padding-left:16px;
+  font-size:1.5em;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-weight:bold;
+  color:#ec5317;
+  padding-bottom:12px;
+  
+  }
+  
+  #actu{width:191px;
+  
+  margin-left:10px;
+  }
+  #bascarre2{margin-left:19px;
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/bascarre2.jpg);
+      background-repeat: no-repeat;
+      height: 24px;
+      width: 217px;
+  }
+  #droite{
+      float: left;
+      width:716px;
+      }
+  #hautbloc{
+      margin-left:5px;
+  
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/hautbloc.png);
+      background-repeat: no-repeat;
+      height: 13px;
+      width: 691px;
+  }
+  #blocblanc{
+      margin-left:5px;
+      width: 691px;
+  
+  background-color:#FFF;
+  background-repeat:repeat;
+  }
+  #zonetexte{ width:665px;
+  
+  padding-top:0px;
+  margin-left:auto;
+  margin-right:auto;}
+  
+  #ascenseur{
+  height:406px;
+  overflow-y:auto;
+  overflow-x:hidden;
+  
+  }
+  
+  #image1{float:left;
+      width:220px;
+      height:176px;
+      margin-left:30px;}
+  #image2{ float:left;
+      width:220px;
+      height:150px;}
+  #image3{float:left;
+      width:220px;
+      height:150px;}
+  #basbloc{
+      margin-left:5px;
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/basbloc.png);
+      background-repeat: no-repeat;
+      height: 14px;
+      width: 691px;
+  }
+  #clear{
+      clear:left;
+  }
+  #milieu{
+      width:987px;}
+  #pied{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/pied.jpg);
+      background-repeat:no-repeat;
+      height: 35px;
+      width: 931px;
+  margin-top:15px;
+      margin-left: 19px;;
+  }
+  #centerpied{float:left;
+      height:20px;
+      width:265px;
+      margin-left:448px;}
+      
+  #tiret2{background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/tiret3.jpg);
+      background-repeat: no-repeat;
+      width:2px;
+      height:20px;
+      float:left;
+      margin-top:5px;
+      }	
+  #book{padding-top:7px;
+      float:left;
+      width:200px;
+      height:40px;
+      
+      }
+      
+  #bas{
+      
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/bas.jpg);
+      background-repeat: no-repeat;
+      height: 67px;
+      width: 987px;
+      margin-bottom:100px;
+  }
+  a:link, a:visited {
+      color: #f29400;
+      font-weight:bold;
+      text-decoration:underline;
+  }
+  
+  a:hover {
+      color: #f29400;
+      font-weight:bold;
+      text-decoration:underline;
+  }
+  
+  .inputboxmlcom{
+  background-color:#FFFFFF;
+  color:#4d76af;
+  height:16px;
+  }
+  
+  input.button { cursor: pointer; }
+  
+  p { margin-top: 0; margin-bottom: 5px; }
+  
+  img { border: 0 none; }
+  
+  a.readmore:link, a.readmore:hover, a.readmore:visited {
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/en_savoir.png);
+      background-repeat: no-repeat;
+      width:77px;
+      height:21px;
+      display:block;
+      font-size:0;
+      float:right;	
+      }
+  
+  a.sublevel#active_menu{color:#052a90;
+  
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/puce_3emeniveau.jpg);
+      background-repeat: no-repeat;}
+  a.sublevel{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/puce_3emeniveau.jpg);
+      background-repeat: no-repeat;
+  }
+  a.sublevel:link{
+  margin-left:4px;
+      padding-left:16px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      color:#FFF;
+  
+      }
+  a.sublevel:hover{
+  margin-left:4px;
+      padding-left:16px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      color:#FFF;
+      
+      }
+  a.sublevel:visited{
+  margin-left:4px;
+      padding-left:16px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      color:#FFF;
+          }
+  a.sublevel#active_menu{
+  
+  margin-left:4px;
+  padding-left:16px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      color:#0f206f;
+  }
+      
+  .moduletable{padding-top:2px;
+      padding-left:23px;
+      font-family: "Arial Black", Gadget, sans-serif;
+      font-size: 14px;
+      color: #FFF;
+      font-weight: bold;
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/rond.jpg);
+      
+      background-repeat: no-repeat;
+  }
+  
+  a.mainlevel{background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/indent1.png);
+      background-repeat: no-repeat;
+      }
+  a.mainlevel#active_menu{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/puce.png);
+      background-repeat: no-repeat;
+      background-position:left;
+      padding-left:12px;
+      margin-left:8px;
+      color:#c2b895;
+      font-size: 11pt;
+      line-height:16pt;
+      text-transform:uppercase;
+      font-weight: bold;
+      text-decoration:none;
+  }
+  a.jqbookmark{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      color: #FFF;
+      font-weight: bold;
+  }
+  
+  /*****************************************/
+  /*** Template specific layout elements ***/
+  /*****************************************/
+  #page_bg {
+      padding: 10px 0;
+      margin-bottom: 1px;
+  }
+  
+  div.center {
+    text-align: center;
+  }
+  
+  div#wrapper {
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  body.width_medium div#wrapper {
+      width: 950px;
+  }
+  
+  body.width_small div#wrapper {
+      width: 773px;
+  }
+  
+  body.width_fmax div#wrapper {
+      min-width: 750px;
+      max-width: 1050px;
+  }
+  
+  div#header_l {
+      position: relative;
+  }
+  
+  div#header_r {
+      height: 90px;
+      padding-left: 370px;
+      padding-right: 30px;
+      padding-top: 25px;
+      overflow: hidden;
+      text-align: left;
+  }
+  
+  div#logo {
+      position: absolute;
+      left: 0;
+      top: 0;
+      float: left;
+      width: 298px;
+      height: 75px;
+      background: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/mw_joomla_logo.png) 0 0 no-repeat;
+      margin-left: 30px;
+      margin-top: 25px;
+  }
+  
+  div#newsflash {
+      width: auto;
+      margin-left: 350px;
+      margin-right: 30px;
+      border: 1px solid #00f;
+  }
+  
+  div#tabarea {
+      background: #f7f7f7 url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/mw_header_b.png) 0 0 repeat-x;
+      margin: 0 11px;
+  
+  }
+  
+  div#tabarea_l {
+      background: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/mw_header_l_b.png) 0 0 no-repeat;
+      padding-left: 32px;
+  }
+  
+  div#tabarea_r {
+      height: 42px;
+      background: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/mw_header_r_b.png) 100% 0 no-repeat;
+      padding-right: 1px;
+  }
+  
+  div#footer_r {
+      padding-top: 10px;
+      height: 47px;
+      overflow: hidden;
+  }
+  
+  div#footer_r div {
+      text-align: center;
+      font-size: .90em;
+      color: #aaa;
+  }
+  
+  div#footer_r a:link, div#footer_r a:visited  {
+      color: #999;
+  }
+  
+  div#footerspacer {
+      height: 10px;
+  }
+  
+  #pathway {
+  
+      
+  }
+  
+  #search {
+      float: right;
+      width:320px;
+      margin-top: -20px;
+      margin-right: 30px;
+      height: 40px;
+      overflow: hidden;
+      text-align:right;
+  }
+  
+  form#searchForm input {
+      vertical-align: middle;
+  }
+  
+  form#searchForm table {
+      border-collapse: collapse;
+  }
+  
+  form#searchForm td {
+      padding:0;
+  }
+  
+  #mod_search_searchword {
+      padding-left: 3px;
+  }
+  
+  #area {
+      padding: 0;
+  }
+  
+  #whitebox {
+      margin: 0 21px 0px 21px;
+      background: #fff;
+      width: auto;
+  }
+  
+  #whitebox div {
+      text-align: left;
+  }
+  
+  #whitebox_t {
+      background: #fff url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/mw_content_t.png) 0 0 repeat-x;
+  }
+  
+  #whitebox_tl {
+      background: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/mw_content_t_l.png) 0 0 no-repeat;
+  }
+  
+  #whitebox_tr {
+      height: 10px;
+      overflow: hidden;
+      background: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/mw_content_t_r.png) 100% 0 no-repeat;
+  }
+  
+  #whitebox_m {
+      border-left: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      width: auto;
+      padding: 1px 8px;
+  }
+  
+  #whitebox_b {
+      margin-top: -5px;
+      background: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/mw_content_b.png) 0 100% repeat-x;
+  }
+  
+  #whitebox_bl {
+      background: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/mw_content_b_l.png) 0 100% no-repeat;
+  }
+  
+  #whitebox_br {
+      height: 13px;
+      background: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/mw_content_b_r.png) 100% 100% no-repeat;
+  }
+  
+  /* horizontal pill menu */
+  table.pill {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+  
+  td.pill_l {
+    background: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/mw_menu_cap_l.png) no-repeat;
+    width:  20px;
+    height: 32px;
+  
+  }
+  
+  td.pill_m {
+    background: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/mw_menu_normal_bg.png) repeat-x;
+    padding: 0;
+    margin: 0;
+    width: auto;
+  }
+  
+  td.pill_r {
+    background: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/mw_menu_cap_r.png) no-repeat;
+    width:  19px;
+    height: 32px;
+  }
+  
+  #pillmenu {
+    white-space: nowrap;
+    height: 32px;
+    float: left;
+  }
+  
+  #pillmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+  }
+  
+  #pillmenu li {
+      float: left;
+      background: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/mw_menu_separator.png) top right no-repeat;
+      margin: 0;
+      padding: 0;
+  }
+  
+  #pillmenu a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+      float:left;
+    display:block;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 20px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  #pillmenu a#active_menu-nav {
+      margin-top:2px;
+      height: 21px;
+      line-height: 21px;
+      background-position: 0 0;
+  }
+  
+  #leftcolumn {
+      padding: 0;
+      margin: 0;
+      width: 20%;
+      float:left;
+  }
+  
+  #maincolumn,
+  #maincolumn_full {
+      margin-left: 20%;
+      padding-left: 15px;
+      width: 75%;
+  }
+  
+  #maincolumn_full {
+      margin-left: 0;
+      padding: 0;
+      width: 100%;
+  }
+  
+  table.nopad {
+      width: 100%;
+      border-collapse: collapse;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 15px;
+  }
+  
+  table.nopad td.middle_pad {
+      width: 20px;
+  }
+  
+  /*****************************************/
+  /*** Joomla! specific content elements ***/
+  /*****************************************/
+  
+  div.offline {
+      background: #fffebb;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 1.2em;
+      padding: 5px;
+  }
+  
+  span.pathway {
+    display: block;
+  
+  
+    line-height: 16px;
+    
+    white-space:normal;
+  }
+  a.pathway:link, a.pathway:hover, a.pathway:visited{  color:#2f2f32;
+  text-decoration:none;
+  
+  }
+  a.breadcrumbs pathway{color:#FFF;}
+  /* headers */
+  div.componentheading {
+  
+  }
+  
+  h1 {
+      padding: 0;
+      font-family:Helvetica ,Arial,sans-serif;
+      font-size: 1.3em;
+      font-weight: bold;
+      vertical-align: bottom;
+      color: #666;
+      text-align: left;
+      width: 100%;
+  }
+  
+  h2, .contentheading, .componentheading {
+  
+  font-weight:bold;
+  color:#f39406;
+  font-size:12pt;
+  line-height:13pt;
+  padding-bottom:18px;
+  }
+  
+  table.contentpaneopen h3 {
+      margin-top: 4px;
+  }
+  .moduletable h3{
+  background: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/titre_module.png) no-repeat;
+  background-position:bottom;
+  background-position:left;
+  text-transform:uppercase;
+  padding-bottom:20px;
+  font-size:12pt;
+  line-height:13pt;
+  color:#9c99c6;
+  text-align:center;
+  
+  
+  }
+  h4 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #333;
+  }
+  
+  
+  
+  
+  
+  h3, table.moduletable th, legend {
+  background: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/titre_module.png) no-repeat;
+  background-position:bottom;
+  background-position:left;
+  padding-bottom:28px;
+  text-transform:uppercase;
+  font-size:12pt;
+  line-height:13pt;
+  color:#9c99c6;
+  
+  text-align:center;
+  
+  }
+  
+  /* small text */
+  .small {
+      font-size: .90em;
+      color: #999;
+      font-weight: normal;
+      text-align: left;
+  }
+  
+  .modifydate {
+    height: 20px;
+    vertical-align: bottom;
+      font-size: .90em;
+      color: #999;
+      font-weight: normal;
+      text-align: left;
+  }
+  
+  .createdate {
+      height: 20px;
+      vertical-align: top;
+      font-size: .90em;
+      color: #999;
+      font-weight: normal;
+      vertical-align: top;
+      padding-bottom: 5px;
+      padding-top: 0px;
+  
+  }
+  
+  a.readon {
+      margin-top: 10px;
+      display: block;
+      float: left;
+      background: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/mw_readon.png) top right no-repeat;
+      padding-right: 20px;
+      line-height: 14px;
+      height: 16px;
+  }
+  
+  /* form validation */
+  .invalid { border-color: #ff0000; }
+  label.invalid { color: #ff0000; }
+  
+  
+  /** overlib **/
+  
+  .ol-foreground {
+      background-color: #f6f6f6;
+  }
+  
+  .ol-background {
+      background-color: #666;
+  }
+  
+  .ol-textfont {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+  }
+  
+  .ol-captionfont {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      color: #f6f6f6;
+      font-weight: bold;
+  }
+  .ol-captionfont a {
+      color: #0B55C4;
+      text-decoration: none;
+      font-size: 12px;
+  }
+  
+  .ol-closefont {}
+  
+  /* menu links */
+  a.mainlevel:link {
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/puce.png);
+      background-repeat: no-repeat;
+      background-position:left;
+      padding-left:12px;
+      margin-left:8px;
+      color:#9c99c6;
+      font-size: 11pt;
+      line-height:16pt;
+      text-transform:uppercase;
+      font-weight: bold;
+      text-decoration:none;
+  
+      
+  }
+   a.mainlevel:visited{
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/puce.png);
+      background-repeat: no-repeat;
+      background-position:left;
+      padding-left:12px;
+      margin-left:8px;
+      color:#9c99c6;
+      font-size: 11pt;
+      line-height:16pt;
+      text-transform:uppercase;
+      font-weight: bold;
+      text-decoration:none;
+      }
+  a.mainlevel:hover {
+      background-image: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/puce.png);
+      background-repeat: no-repeat;
+      background-position:left;
+      padding-left:12px;
+      margin-left:8px;
+      color:#c2b895;
+      font-size: 11pt;
+      line-height:16pt;
+      text-transform:uppercase;
+      font-weight: bold;
+      text-decoration:none;
+  }
+  
+  
+  /* spacers */
+  span.article_separator {
+      display: block;
+      height: 20px;
+  }
+  
+  .article_column {
+      padding-right: 5px;
+  }
+  
+  .column_separator {
+      border-left: 1px dashed #e0e0e0;
+      padding-left: 10px;
+  }
+  
+  td.buttonheading {
+  
+  }
+  .button{
+  color: #3e3d40;
+  background-color:#f29400;
+  border:solid 1px #3e3d40;
+  font-weight:bold;
+  
+  }
+  td.buttonheading img {
+      border:none;
+  }
+  
+  .clr {
+      clear: both;
+  }
+  
+  td.greyline {
+    width: 20px;
+    background: url(/web/20160324115034im_/http://nidiag.org/templates/template_nidiag/images/mw_line_grey.png) 50% 0 repeat-y;
+  }
+  
+  div#maindivider {
+    border-top: 1px solid #ddd;
+    margin-bottom: 10px;
+    overflow: hidden;
+    height: 1px;
+  }
+  
+  table.blog span.article_separator {
+      display: block;
+      height: 20px;
+  }
+  
+  /* edit button */
+  .contentpaneopen_edit{
+      float: left;
+  }
+  
+  /* table of contents */
+  table.contenttoc {
+    margin: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    float: right;
+  }
+  
+  table.contenttoc td {
+    padding: 0 5px;
+  }
+  
+  
+  /* content tables */
+  td.sectiontableheader {
+    background: #efefef;
+    color: #333;
+    font-weight: bold;
+    padding: 4px;
+    border-right: 1px solid #fff;
+  }
+  
+  tr.sectiontableentry0 td,
+  tr.sectiontableentry1 td,
+  tr.sectiontableentry2 td {
+    padding: 4px;
+  }
+  
+  td.sectiontableentry0,
+  td.sectiontableentry1,
+  td.sectiontableentry2 {
+    padding: 3px;
+  }
+  
+  
+  /* content styles */
+  table.contentpaneopen, table.contentpane {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+  }
+  
+  table.contentpaneopen li {
+      margin-bottom: 5px;
+  
+  }
+  
+  table.contentpaneopen fieldset {
+      border: 0;
+      border-top: 1px solid #ddd;
+  }
+  
+  table.contentpaneopen h3 {
+      margin-top: 4px;
+  }
+  
+  table.contentpaneopen h4 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #333;
+  }
+  
+  .highlight {
+      background-color: #fffebb;
+  }
+  
+  /* module control elements */
+  table.user1user2 div.moduletable {
+      margin-bottom: 0px;
+  }
+  
+  div.moduletable, div.module {
+  
+  }
+  
+  div.module_menu h3 {
+  
+  }
+  
+  div.module_menu {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 15px;
+  }
+  
+  div.module_menu div div div {
+  
+  }
+  
+  div.module_menu div div div div {
+      background: none;
+      padding: 0;
+  }
+  
+  div.module_menu ul {
+      margin: 10px 0;
+      padding-left: 20px;
+  }
+  
+  div.module_menu ul li a:link, div.module_menu ul li a:visited {
+      font-weight: bold;
+  }
+  
+  #leftcolumn div.module {
+      padding: 0 10px;
+  }
+  
+  #leftcolumn div.module table {
+      width: auto;
+  }
+  
+  /* forms */
+  table.adminform textarea {
+    width: 540px;
+    height: 400px;
+    font-size: 1em;
+    color: #000099;
+  }
+  
+  div.search input {
+      width: 145px;
+      border: 1px solid #ccc;
+      margin-left:10px;
+  }
+  
+  form#form-login fieldset { border: 0 none; margin: 0em; padding: 0.2em;}
+  form#form-login ul { padding-left: 20px; }
+  
+  form#com-form-login fieldset { border: 0 none; margin: 0em; padding: 0.2em;}
+  form#com-form-login ul { padding-left: 20px; }
+  
+  /* thumbnails */
+  div.mosimage         {  margin: 5px; }
+  div.mosimage_caption {  font-size: .90em; color: #666; }
+  
+  div.caption       { padding: 0 10px 0 10px; }
+  div.caption img   { border: 1px solid #CCC; }
+  div.caption p     { font-size: .90em; color: #666; text-align: center; }
+  
+  div.img_caption       { padding: 0 10px 0 10px; }
+  div.img_caption img   { border: 1px solid #CCC; }
+  div.img_caption p     { font-size: .90em; color: #666; text-align: center; }
+  
+  /* Parameter Table */
+  table.paramlist {
+      margin-top: 5px;
+  }
+  
+  table.paramlist td.paramlist_key {
+      width: 128px;
+      text-align: left;
+      height: 30px;
+  }
+  
+  table.paramlist td.paramlist_value {
+  }
+  
+  div.message {
+      font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      font-size : 14px;
+      color : #c30;
+      text-align: center;
+      width: auto;
+      background-color: #f9f9f9;
+      border: solid 1px #d5d5d5;
+      margin: 3px 0px 10px;
+      padding: 3px 20px;
+  }
+  
+  /* Banners module */
+  
+  /* Default skyscraper style */
+  .bannergroup {
+  }
+  
+  .banneritem img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  /* Text advert style */
+  
+  .banneritem_text {
+      padding: 4px;
+      font-size: 11px;
+  }
+  ul.menuintranet
+  {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  }
+  
+  ul{
+  margin: 0;
+  padding: 0;
+  }
+  
+  .menuintranet li{
+  text-decoration:none;
+  
+  
+  line-height: 15px;
+  
+  padding-left: 10px;
+  
+  padding-top: 0px;
+  
+  
+  
+  
+  list-style:none;
+  }
+  
+  .menuintranet li a:link, .menuintranet li a:hover, .menuintranet li a:visited{
+  text-decoration:none;
+  line-height:13pt;
+  }
+  
+   .menuintranet li a:hover{
+  text-decoration:none;
+  color:#3e3d40;
+  line-height:13pt;
+  }
+  
+  .bannerfooter_text {
+      padding: 4px;
+      font-size: 11px;
+      background-color: #F7F7F7;
+      text-align: right;
+  }
+  
+  /* System Messages */
+  /* see system general.css */
+  
+  .pagination span { padding: 2px; }
+  .pagination a    { padding: 2px; }
+  
+  /* Polls */
+  .pollstableborder td {
+      text-align: left;
+  }
+  
+  /* WebLinks */
+  .description ul{
+  color:#333;
+  font-weight:normal;
+  }
+  
+  .description li{
+  color:#333;
+  font-weight:normal;
+  }
+  /* Frontend Editing*/
+  fieldset {
+      border: 1px solid #ccc;
+      margin-top: 15px;
+      padding: 15px;
+  }
+  
+  legend {
+      margin: 0;
+      padding: 0 10px;
+  }
+  
+  td.key {
+      border-bottom:1px solid #eee;
+      color: #666;
+  }
+  
+  /* Tooltips */
+  
+  .tool-tip {
+      float: left;
+      background: #ffc;
+      border: 1px solid #D4D5AA;
+      padding: 5px;
+      max-width: 200px;
+  }
+  
+  .tool-title {
+      padding: 0;
+      margin: 0;
+      font-size: 100%;
+      font-weight: bold;
+      margin-top: -15px;
+      padding-top: 15px;
+      padding-bottom: 5px;
+      background: url(/web/20160324115034im_/http://nidiag.org/templates/system/images/selector-arrow.png) no-repeat;
+  }
+  
+  .tool-text {
+      font-size: 100%;
+      margin: 0;
+  }
+  
+  /* System Standard Messages */
+  #system-message { margin-bottom: 20px; }
+  
+  #system-message dd.message ul { background: #C3D2E5 url(/web/20160324115034im_/http://nidiag.org/templates/system/images/notice-info.png) 4px center no-repeat;border-top: 3px solid #DE7A7B; border-bottom: 3px solid #DE7A7B; margin:0px; padding-left: 40px; text-indent:0px;}
+  
+  /* System Error Messages */
+  #system-message dd.error ul { color: #c00; background: #E6C0C0 url(/web/20160324115034im_/http://nidiag.org/templates/system/images/notice-alert.png) 4px center no-repeat; border-top: 3px solid #DE7A7B; border-bottom: 3px solid #DE7A7B; margin:0px; padding-left: 40px; text-indent:0px;}
+  
+  /* System Notice Messages */
+  #system-message dd.notice ul { color: #c00; background: #EFE7B8 url(/web/20160324115034im_/http://nidiag.org/templates/system/images/notice-note.png) 4px center no-repeat; border-top: 3px solid #F0DC7E; border-bottom: 3px solid #F0DC7E; margin:0px; padding-left: 40px; text-indent:0px;}
+  
+  #syndicate{
+      float:left;
+      padding-left: 25px;
+  }
+  
+  #power_by{
+      float:right;
+      padding-right: 25px;
+  }
+  
+  /* Component Specific Fixes */
+  
+  #component-contact table td {
+      padding: 2px 0;
+  }
+  
+  
+  .menu16 {width:100%;}
+  /*
+       FILE ARCHIVED ON 11:50:34 Mar 24, 2016 AND RETRIEVED FROM THE
+       INTERNET ARCHIVE ON 05:52:07 Feb 17, 2024.
+       JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+  
+       ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+       SECTION 108(a)(3)).
+  */
+  /*
+  playback timings (ms):
+    exclusion.robots: 0.287
+    exclusion.robots.policy: 0.267
+    cdx.remote: 0.157
+    esindex: 0.012
+    LoadShardBlock: 409.59 (6)
+    PetaboxLoader3.resolve: 159.686 (4)
+    PetaboxLoader3.datanode: 282.621 (7)
+    load_resource: 74.793
+  */
